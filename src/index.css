@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin; /* فقط في Firefox */
+  scrollbar-color: #323a3f transparent;
+}
+
+img {
+  user-select: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #323a3f; /* لون النقطة (المقبض) */
+  border-radius: 10px; /* جعل المقبض دائريًا */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* لون خلفية الشريط (شفاف) */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
