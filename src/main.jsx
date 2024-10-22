@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import LoginPage from "./LoginPage";
-import ChatPage from "./ChatPage";
 import { auth } from "./Firebase"; // تأكد من استيراد المصادقة من Firebase
 import "./index.css";
 
